@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Nordic Energy is like the EEG, only direct and digital.">
+    <meta name="keywords" content="Electricity tariff, Internal power, NORDICENERGY, Blockchain, EEG, capacity market, Feeder">
+    <meta name="author" content="Nordic Energy. Co., Ltd">
+    <title>Nordic Energy - Producers / feeders</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        line-height: 60px; /* Vertically center the text there */
+        background-color: #f5f5f5;
+        padding-left:20px;
+        padding-right:20px;
+      }
+      body {
+         /* background: url('assets/img/corrently_flavor.png') no-repeat center center fixed; */
+         margin-bottom: 60px; /* Margin bottom by footer height */
+      }
+    .container {
+      margin-bottom:60px;
+    }
+    </style>
+    <link rel="stylesheet" href="assets/css/main.min.css">
+  </head>
+
+  <body>
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-lg">
+           <a class="navbar-brand" href="./"><img src="./imgs/nordicenergy-logo.png" alt="Nordic Energy - Own electricity through electricity consumption"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+
+           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active" style="display:none">
+                 <a class="nav-link" href="./main.html">My Elecricity</a>
+               </li>
+               <li class="nav-item" style="display:screen">
+                 <a class="nav-link" href="./tarif.html">Tariff change</a>
+               </li>
+             </ul>
+           </div>
+        </nav>
+
+        <div class="container">
+          <div style="padding-top:100px;">
+            <div class="alert alert-warning">
+              <h3>Waiting list position: <strong class="wl">-</strong></h3>
+              <div class="row">
+                <div class="col-sm-1" style="text-align:center"><h1>!</h1>
+                </div>
+                <div class="col-sm-8">
+                <p>Due to a short-term increase in demand, we are in the process of expanding our resources. However, you can subscribe to our list of interested parties, we will contact you as soon as we can process your request. Entry on the waiting list is a matter of course.<strong>not binding</strong>.</p>
+              </div>
+              <div class="col-sm-1" style="text-align:right"><h1>!</h1>
+              </div>
+            </div>
+          </div>
+           <div style="padding-top:25px;">
+              <h1><em>Nordic Energy non-binding for producers</em></h1>
+              <hr/>
+              <p>In a few years, the first generation plants will fall out of the EEG remuneration. At this point, the economy must be re-examined. We think that we can offer operators of today's plants with EEG feed-in tariffs an offer.              </p>
+              <p>
+                Hi! <strong>Nordic Energy</strong> We are always looking for projects that we can include in whole or in part in the program. Why not on that <em>Olad Hare</em>
+                  who have proven themselves?
+                  Especially the plants that were mostly created 20 years ago are very high quality, solid and reliable. A competitive advantage that can be used!</p>
+              <div class="row">
+                <div class="col-8">
+                  <strong>Nordic Energy Offers</strong>
+                <ul>
+                  <li>Revenue in addition to the feed-in tariff (EEG).</li>
+                  <li>Risk Free.</li>
+                  <li>Can be canceled at any time.</li>
+                  <li>Safe thanks to blockchain technology.</li>
+                  <li>Existing feed-in contracts remain unaffected.</li>
+                  <li>No technical changes to your system necessary.</li>
+                </ul>
+                <p>We will transfer so-called NESC stablecoins to you based on your system data and your feed quantity (= Cryptocurrency) with which you can trade in P2P marketplaces.
+                    Of course, you can also simply return the NESC stablecoins when you have them no longer need as liquidity reserve</p>
+                  <h4>Our service for you:</h4>
+                <ul>
+                  <li>You will be advised by our certified employees by email / telephone.</li>
+                  <li>You will receive an introduction to dealing with cryptocurrencies, marketplaces and exchanges.</li>
+                  <li>As a system operator / owner, you have access to exclusive services from our partners in the area of ​​monitoring and digitization.</li>
+                </ul>
+              </div>
+              <div class="col-4">
+                  <img src="/imgs/corrently_erzeuger.png" alt="Nordic Energy Producer" title="energy producers" class="img img-flex"/>
+                  	<h4>Any questions?</h4><a href="tel:+358">Tel: +358</a>
+              </div>
+            </div>
+            <hr/>
+          <h2>New registration</h2>
+           <div class="row">
+              <div class="col-8">
+                <form data-netlify="true" name="erzeuger" method="POST">
+                  <h4>Required Fields</h4>
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">Your email</label>
+                      <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Bitte Contact-Email angeben" required>
+                      <small id="emailHelp" class="form-text text-muted">Used and saved by us to contact you.</small>
+                  </div>
+                  <h4>Optional information</h4>
+                  <div class="form-group">
+                      <label for="gtype">Type of generation plant</label>
+                      <select class="form-control" id="gtype"  aria-describedby="gtypeHelp" name="gtype">
+                          <option>Photovoltaics</option>
+                          <option>Wind power</option>
+                          <option>Hydropower</option>
+                          <option>Biogas</option>
+                          <option>Biomass</option>
+                          <option>Other (renewable energy)</option>
+                      </select>
+                      <small id="gtypeHelp" class="form-text text-muted">At the moment, only electricity generating plants are accepted at Nordic Energy.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="gyear">Year of first connection to the grid</label>
+                      <select class="form-control" id="gyear"  aria-describedby="gyearHelp" name="gyear">
+                          <option>2020</option>
+                          <option>2019</option>
+                          <option>2018</option>
+                          <option>2017</option>
+                          <option>2016</option>
+                          <option>2015</option>
+                          <option>2014</option>
+                          <option>2013</option>
+                          <option>2012</option>
+                          <option>2011</option>
+                          <option>2010</option>
+                          <option>2009</option>
+                          <option>2008</option>
+                          <option>2007</option>
+                          <option>2006</option>
+                          <option>2005</option>
+                          <option>2004</option>
+                          <option>2003</option>
+                          <option>2002</option>
+                          <option>2001</option>
+                          <option>vor 2000</option>
+                      </select>
+                      <small id="gyearHelp" class="form-text text-muted">Please indicate the year of connection to the German power grid.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="gja">approx. generation per year (in kilo watt hours)</label>
+                      <input type="number" class="form-control" id="gja" name="gja" aria-describedby="gjaHelp" placeholder="Zum Beispiel 10 für eine 11 KWp PV-Anlage">
+                      <small id="gjaHelp" class="form-text text-muted">You can find the target generation in the offer or brochure of your system.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="gin">approx. feed-in per year (in kilo-watt-hours)</label>
+                      <input type="number" class="form-control" name="gin" id="gin" aria-describedby="ginHelp" placeholder="">
+                      <small id="ginHelp" class="form-text text-muted">Corresponds to the generation minus the own consumption.</small>
+                  </div>
+                  <div data-netlify-recaptcha></div>
+                  <p>By submitting the form, you agree that we may save and process the data you have given us to contact you. You can object to this consent at any time and request deletion by email to contact@nordicenergy.io or by calling +358.                  </p>
+                  <button type="submit" class="btn btn-warning">Send</button>
+                </form>
+              </div>
+           </div>
+           <div class="spacer" style="height:100px;"></div>
+          </div>
+       </div>
+       <footer class="footer">
+      <p class="text-muted">© 2018-2020 NORDICENERGY - | <a href="https://nordicenergy.io/en/impressum">Imprint and data protection notice</a> | <a href="https://nordicenergy.co/en/kontakt">Contact</a> |
+         <span class="address"></span> | <a href='#' id='privateKey'>Access key</a> | <a href='#' id='logout'>sign out</a></small>
+         </p>
+       </footer>
+    <script src="assets/js/main.min.js"></script>
+     <script>
+     $(document).ready(function() {
+        $.getJSON("/api/waitinglist",function(d) {
+            $('.wl').html(d.wl);
+            $('.wl').attr('title',"Aktualisiert: "+new Date(d.time).toLocaleString());
+        });
+     });
+     </script>
+  </body>
+
+</html>
