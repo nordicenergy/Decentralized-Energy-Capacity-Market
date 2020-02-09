@@ -1,4 +1,4 @@
 
-# Nordic Energy - PowerChain Android Wallet App
+# Nordic Energy - Android Wallet App
 
 ### Digital Energy - Basic Android Wallet App
